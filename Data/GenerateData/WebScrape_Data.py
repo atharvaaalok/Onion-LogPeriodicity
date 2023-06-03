@@ -3,11 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
 
-# Set the path to the webdriver executable (e.g., chromedriver)
-webdriver_path = ""
-
 # Create a new Chrome browser instance
-driver = webdriver.Chrome(webdriver_path)
+driver = webdriver.Chrome()
 driver.maximize_window()
 
 # Open the web page
